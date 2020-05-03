@@ -1,0 +1,432 @@
+.crumb_wrap {
+    margin-bottom: 10px;
+}
+
+.crumb_wrap a {
+    margin-right: 10px;
+}
+
+.de_container {
+    margin-top: 25px;
+}
+
+.preview_wrap {
+    float: left;
+    width: 400px;
+    height: 590px;
+}
+
+.preview_img {
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background-color: #fede4f;
+    opacity: .5;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.big {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 410px;
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    z-index: 999;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.bigImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.preview_list {
+    position: relative;
+    height: 58px;
+    margin-top: 64px;
+}
+
+.list_item {
+    width: 320px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+.list_item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin: 0 3px;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 56px;
+}
+
+.list_item li.current {
+    border: 1px solid red;
+}
+
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    width: 19px;
+    height: 33px;
+    background: url(../img/zuo.png) no-repeat;
+}
+
+.arrow_next {
+    right: 0;
+    background: url(../img/you.png) no-repeat;
+}
+
+.preview_footer {
+    margin-top: 25px;
+}
+
+.preview_footer p {
+    float: left;
+}
+
+.preview_footer a {
+    float: left;
+    margin-left: 40px;
+}
+
+.preview_footer a i {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 5px;
+}
+
+.fx {
+    background: url(../img/fenxiang.png) no-repeat;
+}
+
+.gz {
+    background: url(../img/guanzhu.png) no-repeat;
+}
+
+.db {
+    background: url(../img/duibi.png) no-repeat;
+}
+
+.itemInfo_wrap {
+    float: right;
+    width: 720px;
+}
+
+.sku_name {
+    font-size: 16px;
+    height: 30px;
+}
+
+.news {
+    height: 30px;
+    font-size: 12px;
+    color: #e12228;
+}
+
+.summary_promotion,
+.summary_price {
+    position: relative;
+    padding: 10px 0;
+    background-color: pink;
+}
+
+.summary dl {
+    overflow: hidden;
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+}
+
+.price {
+    font-size: 24px;
+    color: #e12228;
+}
+
+.summary_price dd a {
+    color: #c81623;
+}
+
+.remark {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.remark em {
+    color: #1474af;
+}
+
+.summary_promotion dd {
+    width: 550px;
+    line-height: 36px;
+}
+
+.summary_promotion {
+    padding-top: 0;
+}
+
+.summary_promotion dd i {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    margin-right: 5px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #c81623;
+    color: #fff;
+}
+
+.summary_support dd {
+    line-height: 36px;
+}
+
+.summary_stock dd {
+    width: 425px;
+    line-height: 36px;
+}
+
+.summary_stock dd i {
+    font-size: 14px;
+}
+
+.choose_color dd a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    margin: 0 5px;
+    border: 1px solid #ededed;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 41px;
+}
+
+.summary a.current {
+    border-color: #c81623;
+}
+
+.choose_type,
+.choose_vision {
+    margin: 10px 0;
+}
+
+.choose_rl dd a,
+.choose_type dd a,
+.choose_vision dd a {
+    display: inline-block;
+    height: 32px;
+    margin: 0 5px;
+    padding: 0 10px;
+    border: 1px solid #ededed;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 32px;
+}
+
+.choose_amount {
+    position: relative;
+    float: left;
+    width: 51px;
+    height: 46px;
+    background-color: pink;
+}
+
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.add,
+.reduce {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+
+.reduce {
+    bottom: 0;
+    cursor: not-allowed;
+}
+
+.addcar {
+    float: left;
+    width: 142px;
+    height: 46px;
+    margin-left: 10px;
+    background-color: #c81623;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+}
+
+.choose_btns {
+    margin-left: 10px;
+}
+
+.tab_list {
+    float: left;
+    width: 208px;
+    border: 1px solid #ccc;
+}
+
+.tab_list_item li {
+    float: left;
+    height: 33px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+}
+
+.first_tab {
+    width: 104px;
+}
+
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.tab_list .current {
+    background-color: #fff;
+    border-bottom: none;
+    color: #c81623;
+}
+
+.tab_list_bd {
+    padding: 0 15px;
+}
+
+.tab_list_type {
+    margin-bottom: 15px;
+}
+
+.tab_list_type li {
+    float: left;
+    width: 75px;
+    height: 29px;
+    border-bottom: 1px dotted #ccc;
+    text-align: center;
+    line-height: 29px;
+    margin: 0 5px;
+}
+
+.tab_list_type li.last {
+    border-bottom: none;
+}
+
+.tab_list_bd p {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.list_bd_con li {
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.list_bd_con h5 {
+    margin-top: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list_bd_con h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.list_bd_con a {
+    display: block;
+    width: 88px;
+    height: 26px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+/*detail*/
+
+.detail {
+    float: right;
+    width: 977px;
+}
+
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 39px;
+}
+
+.detail_tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.item_infor {
+    padding: 30px 0 0 30px;
+}
+
+.item_infor li {
+    line-height: 22px;
+}
+
+.item p {
+    height: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.more {
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "icomoon";
+}

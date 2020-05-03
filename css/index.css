@@ -1,0 +1,409 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 219px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.focus ul li a {
+    display: block;
+}
+
+.newsflash {
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.arrow-r {
+    right: 0;
+    border-radius: 20px 0 0 20px;
+}
+
+.focus i {
+    font-family: "icomoon";
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: #fff;
+}
+
+.circle {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.circle li {
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, .8);
+}
+
+.circle li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.circle .current {
+    background-color: #fff;
+}
+
+
+/*newsflash*/
+
+.news {
+    width: 248px;
+    height: 163px;
+    border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.news_hd a {
+    float: right;
+}
+
+.news_hd a i {
+    font-family: "icomoon";
+}
+
+.news_bd {
+    padding: 12px 0 0 15px;
+}
+
+.news_bd li {
+    height: 24px;
+}
+
+.lifeservice ul li {
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li a {
+    position: relative;
+    /*解决外边距塌陷问题*/
+    overflow: hidden;
+    display: block;
+    width: 62px;
+    height: 70px;
+}
+
+.lifeservice_items {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 12px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.lifeservice p {
+    text-align: center;
+}
+
+.lifeservice_huafei {
+    background-position: -17px -16px;
+}
+
+.lifeservice_feiji {
+    background-position: -78px -16px;
+}
+
+.lifeservice_dianying {
+    background-position: -141px -16px;
+}
+
+.lifeservice_youxi {
+    background-position: -206px -16px;
+}
+
+.lifeservice_caipiao {
+    background-position: -17px -88px;
+}
+
+.lifeservice_jiayou {
+    background-position: -78px -88px;
+}
+
+.lifeservice_jiudian {
+    background-position: -141px -88px;
+}
+
+.lifeservice_huoche {
+    background-position: -206px -88px;
+}
+
+.lifeservice_zhongchou {
+    background-position: -17px -159px;
+}
+
+.lifeservice_licai {
+    background-position: -78px -159px;
+}
+
+.lifeservice_lipin {
+    background-position: -141px -159px;
+}
+
+.lifeservice_baitiao {
+    background-position: -206px -159px;
+}
+
+.lifeservice {
+    width: 248px;
+    height: 208px;
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+
+.lifeservice ul {
+    width: 253px;
+}
+
+.lifeservice li {
+    float: left;
+}
+
+.lifeservice .jian {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+
+.bargain {
+    position: absolute;
+    bottom: 0;
+    height: 75px;
+}
+
+
+/*commmond部分*/
+
+.commond {
+    height: 163px;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.com_hd {
+    float: left;
+    width: 205px;
+    height: 100%;
+    background-color: #5c5251;
+}
+
+.com_hd i {
+    display: block;
+    width: 57px;
+    height: 57px;
+    background: url(../img/zhong.png) no-repeat;
+    margin: 30px 0 10px 75px;
+}
+
+.com_hd h3 {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.com_bd {
+    float: left;
+    width: 995px;
+    height: 100%;
+    background-color: #ebebeb;
+}
+
+.com_bd_content li {
+    float: left;
+    width: 247px;
+    height: 143px;
+    margin-top: 10px;
+    border-right: 1px solid #ddd;
+}
+
+.com_bd_content li a {
+    display: block;
+    height: 143px;
+}
+
+.com_bd_content .last {
+    border-right: none;
+}
+
+
+/*floor部分*/
+
+.box_hd {
+    height: 30px;
+    margin-top: 25px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li a {
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.box_bd {
+    height: 360px;
+}
+
+
+/*209 329 219 220 219*/
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w219 img,
+.w220 img {
+    border-bottom: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_con li {
+    float: left;
+    height: 360px;
+}
+
+.w209_items {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.w209_items li {
+    float: left;
+    width: 85px;
+    height: 32px;
+    margin: 0 6px;
+    border-bottom: 1px solid #ccc;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+/*固定导航*/
+
+.fixedtool {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+
+.fixedtool_list li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.fixedtool_list .first {
+    border-top: 1px solid #c81623;
+    border-bottom: 1px solid #c81623;
+    background-color: #c81623;
+}
+
+.first a {
+    color: #fff;
+}
+
+.box_bd li {
+    overflow: hidden;
+}
+
+.box_bd img {
+    transition: all 0.5s;
+}
+
+.box_bd img:hover {
+    margin-left: 10px;
+}
